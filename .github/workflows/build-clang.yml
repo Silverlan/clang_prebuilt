@@ -39,6 +39,7 @@ jobs:
       - name: Install
         shell: bash
         run: |
+          cd llvm-project/build
           ninja install
 
       - name: Create Release Archive
