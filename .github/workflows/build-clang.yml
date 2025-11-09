@@ -48,7 +48,7 @@ jobs:
           curDir="$PWD"
           cd "llvm-project/build"
           tar -czvf linux_x64.tar.gz *
-          mv "llvm-project/build/linux_x64.tar.gz" "$curDir/"
+          mv linux_x64.tar.gz "$curDir/"
 
       - name: Generate nightly tag description
         shell: bash
