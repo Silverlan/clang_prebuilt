@@ -93,4 +93,4 @@ jobs:
         with:
           tag: "${{ steps.get_date.outputs.date }}"
           token: ${{ secrets.GITHUB_TOKEN }}
-          files: "linux_x64.tar.gz"
+          files: "linux_x64.tar.xz"
